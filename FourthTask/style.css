@@ -13,7 +13,7 @@ div.main {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
     box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
@@ -66,4 +66,10 @@ img.cloud {
 img.server {
     width: 100px;
     height: 100px;
+}
+
+hr {
+    height: 85%;
+    align-self: center;
+    margin: 0px;
 }
